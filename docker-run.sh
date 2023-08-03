@@ -3,4 +3,4 @@ docker run -it --rm \
   --privileged \
    -v "$(pwd)/example:/root/example" \
   --pid=host \
-  ebpf-destop:v1
+  yangyw12345/cxlmemsim:v1 bash

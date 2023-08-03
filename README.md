@@ -1,14 +1,12 @@
 ## What
 A docker of learning eBPF at MacOS/Win.
 
-Ubuntu: 21.04
+Ubuntu: 23.04
 
-Kernel: 5.10.76
+Kernel: default
 
 ## Run it!
 ```
-cd ebpf-for-desktop/
-docker build -t ebpf:v1 .
 sh ./docker-run.sh
 ```
 
